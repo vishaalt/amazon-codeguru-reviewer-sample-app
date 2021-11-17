@@ -1,5 +1,5 @@
-name: My First GitHub Actiondfg
-on: [push]
+name: CodeGuru Reviewer
+on: [push, workflow_dispatch]
 jobs:
   My-Action:
     runs-on: ubuntu-latest
